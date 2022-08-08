@@ -1,0 +1,95 @@
+
+.App{
+ 
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  /* width: 100vw;
+  height: 100vh;
+   */
+   height: 370vh;
+}
+
+.form-container{
+  position: relative;
+  top:10vh;
+  width:60%;
+  background-color: white;
+  margin: auto;
+  border-radius: 12px;
+
+  
+
+}
+form{
+  margin: 1vmax;
+}
+
+form  p{
+  margin: 1vmax 0 1vmax 0;
+}
+
+ .required::after{
+  content:"*";
+  color: red;
+  margin-left: 1vmax;
+}
+
+.form-input{
+  margin: 1vmax;
+}
+
+.category{
+  padding: 1vmax 3vmax;
+}
+
+.category > option{
+  font-size: 1.2rem;
+  margin:1vmax ;
+}
+
+.scroll {
+  font-size: 1.8rem;
+ 
+}
+
+
+
+.scroll option{
+  font-size: 1.8rem;
+  
+}
+
+
+
+.dull{
+  color:#6f6f6f;
+  margin-top: 0;
+  margin-bottom: 1vmax;
+  font-size: 12px;
+}
+
+.line{
+  border: 0.2px solid #e3e3e3;
+}
+
+form input{
+  
+  padding: 2px;
+}
+
+#submit{
+  padding: 5px 100px 5px 100px;
+  border:none;
+  background-color: #6dd5ed;
+  color:black;
+  font-size: 20px;
+  border-radius: 12px;
+  margin-bottom:10vh ;
+  
+}
+
+small{
+  color: white;
+  background-color:red;
+  padding: 5px;
+  margin:5px;
+}
